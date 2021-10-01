@@ -1,0 +1,164 @@
+*{padding:0px; margin:0px; box-sizing: border-box;}
+
+.box{
+    width: 100%;
+    background-color: cornflowerblue;
+    border: 1px solid;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    margin: 0 0.7rem;
+}
+
+nav ul{
+
+    list-style: none;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+    padding: 5px;
+    margin-top: 148px;
+    margin-left: -12px;
+    border: 1px solid;
+    display: none;
+}
+
+
+li{
+    text-align: center;
+    padding: 2px;
+    color:black;
+
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color:white;
+}
+
+#logo{
+  font-size: 21px;
+}
+
+.post{
+    width: 98%;
+    height: 200px;
+    border: 2px solid;
+    margin:1em auto;
+    background-image: url(Fundo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto{
+    width: 70%;
+    border: 1px dotted;
+    margin:.7rem auto;
+    text-align: center;
+    background-color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.texto > h4{
+  
+    font-weight: bold;
+}
+
+.texto > p{
+    
+    color:white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.butao{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    width: max-content;
+    margin: .3rem auto;
+    padding: 6px;
+    font-family: 'Indie Flower', cursive;
+    color:white;
+}
+   
+.butao:hover{
+       cursor: pointer;
+       color:black;
+       background-color:rgb(48, 102, 201) ;
+}
+
+.box2{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: crimson;
+    margin-top: 1rem;
+}
+
+#legen1{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 .4rem;
+    padding-top: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+ }
+ 
+
+.fotos{
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    margin:1rem auto;
+}
+
+.fotos > div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px
+}
+
+
+
+#foto1{
+    background-image: url(1.png);
+    transition: 1s;
+}
+
+#foto2{
+    background-image: url(2.png);
+    transition: 1.3s;
+}
+
+#foto3{
+    background-image: url(3.png);
+    transition: 1.6s;
+}
+
+#foto4{
+    background-image: url(4.png);
+    transition: 1.9s;
+}
+
+.boxinferior{
+    width: 100%;
+    height: 38px;
+    background-color: cornflowerblue;
+    border: 1px solid;
+}

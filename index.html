@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"  media="screen and (min-width: 835px)" href="style.css">
+    <link rel="stylesheet"  media="screen and (max-width: 835px)" href="style_mobile.css"> 
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+    <title>- Emagreça Bem -</title>
+</head>
+<body>
+
+    <!-- Parte do cabeçalho e do nav -->
+    <div class="box" id="Inicial">
+       <header>
+          <p id="logo">
+          Logo
+          </p>
+
+          <nav id="nav">
+              <ul id="nav1">
+                <li><a href="#Inicial">Página Inicial</a></li>
+                <li><a href="#ebook">Ebook-Gratis</a> </li>
+                <li>Contato</li>
+              </ul>
+          </nav>
+            <i class="material-icons" id="logo-menu">
+            reorder
+            </i> 
+       </header>
+    </div>
+ 
+    <!-- Parte do Banner -->
+    <div class="post">
+        <div class="texto">
+            <h4>FAÇA PARTE DO NOSSO TIME</h4> <br>
+            <p> Emagreça sem sair de casa com saúde e com facilidade!</p>
+        </div>
+        <div class="butao">Receba agora o nosso ebook</div>
+    </div>
+
+    <!-- Parte abaixo do Banner -->
+    <div class="box2">
+       <div class="legendFotos">
+           <span id="legen1">Tenha acesso as nossas melhores receitas e dietas!</span>
+    
+          <div class="fotos">
+         
+              <div id="foto1"></div>
+              <div id="foto2"></div>
+              <div id="foto3"></div>  
+              <div id="foto4"></div> 
+           
+          </div>
+       </div> 
+
+    </div>
+    
+     <section class="container2">
+        <h3>Você já  tentou de tudo para emagrecer?</h3>
+
+        <div class="box3">
+            <div class="box3Fotos" id="box3-parte1">
+              <img src="Pergunta/foto1.jpeg" alt="">
+              <p>Tem dificuldade para emagrecer?</p>
+            </div>
+
+            <div class="box3Fotos" id="box3-parte2">
+              <img src="Pergunta/foto2.jpeg" alt="">
+              <p>Já tentou emagrecer com vários remédios e sem sucesso?</p>
+            </div>
+
+
+            <div class="box3Fotos" id="box3-parte3">
+              <img src="Pergunta/foto3.jpeg" alt="">
+              <p>Procura um método seguro e natural para perder peso?</p>
+            </div>
+
+
+            <div class="box3Fotos" id="box3-parte4">
+               <img src="Pergunta/foto4.jpeg" alt="">
+               <p>Sente muito cansaço e falta de energia?</p>
+            </div>
+        </div>
+
+         <button id="botao">Baixe Agora O Nosso Ebook</button>
+     </section>
+
+     <section class="container3">
+      <h4>Não importa se você é Homem ou Mulher!</h4>
+
+      <p>Uma alimentação Low Carb vai te ajudar a emagrecer sem passar fome ou contar calorias…</p>
+
+      <img src="antes_depois.jpeg" alt="">
+     </section>
+     
+     <section class="container4">
+      <h4>Os nossos ebooks estão dando o que falar, veja:</h4>
+       
+      <div class="box4">
+          <div class="box4Fotos">
+            <img src="ProvaSocial/prova1.jpeg" alt="">
+          </div>
+
+
+          <div class="box4Fotos">
+            <img src="ProvaSocial/prova2.jpeg" alt="">
+          </div>
+
+
+          <div class="box4Fotos">
+            <img src="ProvaSocial/prova3.jpeg" alt="">
+          </div>
+      </div>
+     </section>
+
+     <section id="ebook" class="container5">
+        <h5>Cardapio Diário</h5>
+
+        <div class="box5">
+            <div class="box5Fotos">
+                <img src="Cardapio/cafedamanha.jpeg" alt="">
+               
+                <h4>Café da Manhã e Lanches</h4>  
+
+                <p>Nesta categoria você vai aprender a preparar deliciosas receitas <br> low carb para o café da manhã ou lanches.</p>
+
+            </div>
+
+            <div class="box5Fotos">
+                <img src="Cardapio/almoco.jpeg" alt="">
+               
+                <h4> Almoço e Jantar</h4>  
+
+                <p>Nesta categoria você vai aprender a preparar diversas receitas para um almoço <br> ou jantar low carb, receitas saudáveis e práticas.</p>
+            </div>
+
+            <div class="box5Fotos">
+                <img src="Cardapio/doce.jpeg" alt="">
+               
+                <h4>Doces e sobremesas</h4>  
+    
+                <p>Nesta categoria separamos as melhores receitas de doces e sobremesas <br> low carb, para você se deliciar sem culpa ou preocupações.</p>
+            </div>
+        </div>
+     </section>
+
+      
+    <div class="boxinferior"></div>
+    
+
+   <script>
+
+        
+var cont = 0;
+function TrocaImg(){
+    var foto1 = document.getElementById("foto1");
+    var foto2 = document.getElementById("foto2"); 
+    var foto3 = document.getElementById("foto3");
+    var foto4 = document.getElementById("foto4");
+
+    if(cont == 0){
+    foto1.style.backgroundImage ="url(5.png)";
+    foto2.style.backgroundImage ="url(6.png)";
+    foto3.style.backgroundImage ="url(7.png)";
+    foto4.style.backgroundImage ="url(8.png)";
+    cont = 1;
+    }
+    else{
+    foto1.style.backgroundImage ="url(1.png)";
+    foto2.style.backgroundImage ="url(2.png)";
+    foto3.style.backgroundImage ="url(3.png)";
+    foto4.style.backgroundImage ="url(4.png)";
+    cont = 0;
+    }
+}
+
+
+var menuCont = 0;
+function ChamaMenu(){
+    var menu = document.getElementById("nav");
+    var menu1 = document.getElementById("nav1");
+
+    if(menuCont == 0){
+    menu.style.display="block";
+    menu1.style.display="block";
+    menuCont = 1;
+    }
+    else{
+    menu.style.display="none";
+
+    menuCont = 0;
+    }
+}
+
+function inicia(){
+  tmp = setInterval(TrocaImg,4000);
+  document.getElementById("logo-menu").addEventListener("click",ChamaMenu);
+}
+
+window.addEventListener("load",inicia);
+
+   </script>
+</body>
+</html>
